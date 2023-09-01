@@ -1,0 +1,176 @@
+/* customers:
+https://de.freepik.com/vektoren-kostenlos/emoji-emoticons-set-gesicht-ausdruck-gefuehle-sammlung_2610008.htm#query=smiley&position=17&from_view=search
+
+food:
+meat: https://www.flaticon.com/free-icon/meat_3082041?related_id=3081928&origin=search
+onion: https://www.flaticon.com/premium-icon/onion_395297?related_id=395297&origin=search
+onion: https://www.flaticon.com/free-icon/mushroom_877743?term=mushroom&related_id=877743
+tomato: https://www.flaticon.com/premium-icon/tomato_723036
+lettuce: https://www.flaticon.com/free-icon/lettuce_3349765
+
+pita:
+https://www.flaticon.com/free-icon/pita-_1182170?term=pita%20bread&page=1&position=16&page=1&position=16&related_id=1182170&origin=tag
+https://www.flaticon.com/free-icon/pita_6775923
+https://www.flaticon.com/premium-icon/pita-bread_1999964
+
+worker
+https://de.freepik.com/freie-ikonen/mann_15506256.htm#query=employee&position=35&from_view=search
+*/
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+.settings {
+  position: relative;
+  width: 80%;
+  left: 10%;
+  height: 500px;
+  background-color: rgb(158, 158, 158);
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.settings h2 {
+  position: relative;
+  color: white;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+form {
+  color: white;
+  text-align: center;
+  position: relative;
+}
+
+form input {
+  margin-bottom: 40px;
+}
+
+canvas {
+  position: relative;
+  margin-top: 25px;
+  background-color: rgb(158, 158, 158);
+  margin-left: 40px;
+  margin-right: auto;
+  display: block;
+  border-style: solid;
+  border-radius: 4px;
+}
+
+.flexBox {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: row;
+  gap: 200px;
+  justify-content: center;
+}
+
+.order {
+  top: 25px;
+  position: relative;
+  width: 300px;
+  height: 615px;
+  text-align: center;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: black;
+}
+
+.order h2 {
+  text-align: center;
+}
+
+button {
+  cursor: pointer;
+}
+
+button:disabled {
+  cursor: auto;
+}
+
+.btn-group button {
+  position: relative;
+  padding: 10px 10px;
+  margin-top: 50px;
+}
+
+.finishButton {
+  margin-right: 40px;
+}
+
+.deleteIngredientButton {
+  margin-left: 20px;
+}
+
+#start {
+  padding: 15px 35px;
+}
+
+.capacity {
+  position: relative;
+  text-align: center;
+  top: 25px;
+  width: 250px;
+  height: 615px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: black;
+  font-size: 18px;
+}
+
+.counterDiv {
+  position: relative;
+  top: 190px;
+  left: 45px;
+  width: 100px;
+  height: 325px;
+  border-radius: 4px;
+  border-style: solid;
+  border-color: black;
+  background-color: grey;
+}
+
+.containerIngredients {
+  display: flex;
+  /* or inline-flex */
+  flex-direction: column;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.containerIngredients img {
+  height: 60px;
+  width: 60px;
+}
+
+#Bread {
+  position: relative;
+  top: 50px;
+  width: 200px;
+  height: 170px;
+}
+
+#orderImage {
+  height: 50px;
+  width: 50px;
+}
+
+#ingredientsDiv {
+  position: relative;
+  margin-left: 40px;
+  margin-right: 40px;
+  top: 70px;
+}
